@@ -89,3 +89,42 @@
     left: 540px;
     font-weight: 1000;
 }
+
+#chat {
+	position: fixed;
+	bottom: 0px;
+	left: 190px;
+	width: 900px;
+	height: 200px;
+	background: black;
+}
+
+#messages {
+	font-size: 16px !important;
+	color: white;
+	overflow: auto;
+	display: flex;
+  	flex-direction: column-reverse;
+  	position: absolute;
+  	top: 0px;
+  	height: 180px;
+  	background: black;
+  	width: 900px;
+}
+
+#message {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: red;
+	width: 800px;
+	height: 20px;
+}
+
+#message-button {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 80px;
+	height: 20px;
+}
