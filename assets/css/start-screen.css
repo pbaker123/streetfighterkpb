@@ -1,0 +1,70 @@
+#start-screen {
+	background-color: black;
+	width: 1280px;
+	height: 720px;
+	margin: auto;
+	position: relative;
+}
+
+#main-title {
+	position: absolute;
+	left: 190px;
+	top: 75px;
+}
+
+#sub-title {
+	font-family: arial, sans-serif;
+	font-size: 3.5em;
+	width: 600px;
+	text-align: center;
+	background: -webkit-linear-gradient(#f7f7f7, #06f7f7);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-text-stroke-width: 3px;
+   	-webkit-text-stroke-color: #0648f7;
+  	padding: 5px;
+  	position: absolute;
+  	top: 400px;
+  	left: 340px;
+  	font-weight: 1000;
+}
+
+#start-button {
+	padding: 30px;
+	width: 400px;
+  	position: absolute;
+  	bottom: 100px;
+  	left: 440px;
+  	text-align: center;
+}
+
+#start-button-text {
+	font-family: times, serif;
+	font-size: 3em;
+	text-align: center;
+	background: -webkit-linear-gradient(#686868, #d80606);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-weight: 1000;
+}
+
+#start-button:hover, #start-button:active, #start-button:focus {
+	background: #f7b006;
+	border-radius: 5px;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: black;
+}
+
+#game {
+	position: absolute;
+	margin: auto;
+}
+
+#test {
+	transform: scale(5, 5);
+	-ms-transform: scale(5, 5);
+	-webkit-transform: scale(5, 5);
+	position: relative;
+	top: 400px;
+	left: 400px;
+}

@@ -1,0 +1,177 @@
+h1 {
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 1.5em;
+	font-weight: 1000;
+	padding: 20px;
+}
+
+#player-1-battle-character {
+	position: absolute;
+	top: 400px;
+	left: 300px;
+}
+
+.player-1-character {
+	transform: scale(4, 4);
+	-ms-transform: scale(4, 4);
+	-webkit-transform: scale(4, 4);
+}
+
+#player-2-battle-character {
+	position: absolute;
+	top: 400px;
+	right: 300px;
+}
+
+.player-2-character {
+
+	transform: scale(-4, 4);
+	-ms-transform: scale(-4, 4);
+	-webkit-transform: scale(-4, 4);
+}
+
+#player-1-health {
+	position: absolute;
+	top: 50px;
+	left: 65px;
+
+}
+
+#player-2-health {
+	position: absolute;
+	top: 50px;
+	right: 65px;
+	transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+}
+
+#player-1-label {
+	text-align: left;
+	font-family: times, serif;
+	font-size: 2.5em;
+	font-weight: 1000;
+	background: -webkit-linear-gradient(#dd5604, #e0b809, #dd5604);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	position: absolute;
+  	top: 100px;
+  	left: 75px;
+}
+
+#player-2-label {
+	text-align: left;
+	font-family: times, serif;
+	font-size: 2.5em;
+	font-weight: 1000;
+	background: -webkit-linear-gradient(#dd5604, #e0b809, #dd5604);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	position: absolute;
+  	top: 100px;
+  	right: 75px;
+}
+
+#ko {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 4px solid white;
+	border-radius: 6px;
+	color: red;
+	position: absolute;
+	top: 40px;
+	left: 562px;
+	background: black;
+	font-size: 4em;
+}
+
+#player-1-buttons {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	bottom: 20px;
+	left: 20px;
+}
+
+#player-2-buttons {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	bottom: 20px;
+	right: 20px;
+}
+
+#punch-1, #kick-1, #block-1, #punch-2, #kick-2, #block-2 {
+	height: 50px;
+	width: 50px;
+	border: black solid 3px;
+	border-radius: 25px;
+	margin: 20px;
+	position: absolute;
+	line-height: 50px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 1000;
+	cursor: pointer;
+}
+
+#punch-1 {
+	background-color: red;
+	top: 40px;
+	left: 10px;
+}
+
+#kick-1 {
+	background-color: blue;
+	top: 80px;
+	left: 125px;
+}
+
+#block-1 { 
+	background-color: white;
+	bottom: 10px;
+	right: 10px;
+}
+
+#punch-2 {
+	background-color: red;
+	top: 40px;
+	right: 10px;
+}
+
+#kick-2 {
+	background-color: blue;
+	top: 80px;
+	right: 125px;
+}
+
+#block-2 { 
+	background-color: white;
+	bottom: 10px;
+	left: 10px;
+}
+
+#attack-reminder {
+	width: 600px;
+	height: 400px;
+	background: white;
+	opacity: .8;
+	border-radius: 10px;
+	position: absolute;
+	text-align: center;
+	top: 160px;
+	left: 290px;
+	padding: 50px;
+}
+
+#countdown {
+	color: red;
+	font-size: 2em;
+	padding: 20px;
+}

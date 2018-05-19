@@ -1,0 +1,91 @@
+#character-selection-screen {
+	background-color: #010163;
+	width: 1280px;
+	height: 720px;
+	margin: auto;
+	position: relative;
+}
+
+#character-portraits-container {
+	background-color: #858481;
+	width: 360px;
+	height: 170px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px;
+	position: absolute;
+	bottom: 100px;
+	left: 460px;
+}
+
+.character-portraits {
+	margin: 1px;
+	background-color: black;
+	cursor: pointer;
+	opacity: .7;
+}
+
+.character-portraits:hover {
+	opacity: 1;
+}
+
+#page-title {
+	text-align: center;
+	font-family: times, serif;
+	font-size: 3em;
+	font-weight: 1000;
+	color: #f6b718;
+	top: 100px;
+	position: relative;
+}
+
+#player-1-character {
+	position: absolute;
+	bottom: 50px;
+	left: 100px;
+}
+
+#player-2-character {
+	position: absolute;
+	bottom: 50px;
+	right: 100px;
+}
+
+#player-2-character-image {
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin: 0 auto;
+}
+
+.player-label {
+	text-align: center;
+	font-family: times, serif;
+	font-size: 3em;
+	font-weight: 1000;
+	color: #009ff3;
+}
+
+.player-character {
+	text-align: center;
+	font-family: times, serif;
+	font-size: 3em;
+	font-weight: 1000;
+	background: -webkit-linear-gradient(#dd5604, #e0b809, #dd5604);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	padding: 5px;
+}
+
+#countdownTimer {
+	text-align: center;
+	font-family: courier;
+	font-size: 4.5em;
+	color: red;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	position: absolute;
+	top: 215px;
+    left: 540px;
+    font-weight: 1000;
+}
